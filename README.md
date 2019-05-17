@@ -28,9 +28,11 @@ Plug the motor shield onto the arduino.<br>
 Plug the lcd shield onto the motor shield<br>
 <br>
 Solder the RJ22 plug in such an order that the following connections from the nanoject wires are made:<br>
-**********<br>
-Will be added soon when I have the pictures....<br>
-**********<br>
+* Black : 4 (B left) <br>
+* Red : 3 (B right) <br>
+* Green : 2 (A right) <br>
+* Yellow : 1 (A left) <br>
+<br>
 Connect the arduino uno to your computer, download the four .ino files from this project, and upload them to your arduino. You should be able to test the menu functions on your arduino. The whole interface is straightforward:<br>
 1. Set volume   - Volume to inject<br>
 2. Set time     - Set the time over which to inject<br>
